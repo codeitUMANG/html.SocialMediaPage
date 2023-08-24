@@ -2,9 +2,12 @@
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 800px;
+	height: 570px;
     margin-top: 0px;
+    display: flex;
     
+    justify-content: center;
+    margin-bottom: 70px;
 }
 
 @keyframes gradient {
@@ -18,18 +21,25 @@
 		background-position: 0% 50%;
 	}
 }
+@media (max-width:450px) {
+    .gradient-back{
+ width : 300px;
+ height: 200px;
+    }
+}
+
 .container1{
     display: flex;
     margin-left: 200px;
     column-gap: 800px;
     width: 1900px;
-    margin-top: 100px;
+    margin-top: 10px;
     gap: 500px;
     justify-content:space-evenly;
     align-items: baseline;
 }
 .two{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .pb-2{
     font-size: 4rem;
@@ -45,12 +55,9 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .five{
-    font-size: 4rem;
+    font-size: 3rem;
 }
-.head{
-    height: 73px;
-
-}
+.
 
 .nin{
     margin-top: 80px;
@@ -69,31 +76,45 @@
     width: 2100px;
     font-size: 20px;
 }
-.navbar{
-    background-color: orange;
-}
+
+
 .icon-link{
     color: orange;
 }
-.navbar-expand-lg{
-    background-color: orange;
-    margin-top: 0px;
-}
+
+
 .bg-body-tertiary{
     background-color: orange;
-    margin-top: 0px;
+   
 }
-.container-fluid{
-    background-color: orange;
-    height: 40px;
-    margin-top: 0px;
-}
+
 .head{
-    margin-top: 0px;
+   background-color: orange;
 }
-.navbar-brand{
-    font-size: 30px;
+
+.px-5{
+    margin-top: 45px;
 }
-.nav-link{
-    font-size:20px ;
+.pi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+@media (max-width:500px) {
+    .pi{
+ width : 250px;
+ height: 150px;
+}
+}
+.pii{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:500px) {
+    .pii{
+ width : 200px;
+ height: 120px;
+    }
+}
+

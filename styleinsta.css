@@ -3,25 +3,43 @@ font-size: 6rem;
 font-weight: 700;
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: white;
+}
 
+@media (max-width:450px) {
+    .one{
+ font-size: 2.5rem;
+ margin-left: 10px;
 
+    }
 }
 .two{
-    display: flex;
-    align-items: center;
+    display:flex;
+    align-items:flex-start;
     justify-content: center;
     border-color: #974EC3;
     border-width: 5px;
     border-style:ridge;
     gap: 50px;
-    padding-left:20px ;
+    padding-left:0px ;
     background-color: #974EC3;
-    
-  
-    
+}
+@media (max-width:450px) {
+    .two{
+gap: 0px;
+display:block;
+align-items: center;
+justify-content:space-around;
+    }
 }
 #why{
     border-radius: 20%;
+}
+@media (max-width:450px) {
+    #why{
+ width : 70px;
+ height: 50px;
+ margin-left: 90px;
+    }
 }
 .nin{
     margin-top: 80px;
@@ -44,7 +62,7 @@ color: white;
     background-color:orange;
 }
 .three{
-    display: flex;
+    display:flex;
     gap: 10px;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -52,8 +70,12 @@ color: white;
     align-items: center;
     justify-content: center;
     color: orange;
-  
-
+  }
+  @media (max-width:450px) {
+    .three{
+ display: block;
+ font-size: 1.5rem;
+    }
 }
 .tt{
 
@@ -66,6 +88,12 @@ color: white;
 font-size: 3rem;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media (max-width:450px) {
+    .tt{
+font-size: 1.5rem;
+gap: 5px;
+    }
+}
 .how{
     font-size: 2rem;
     color: blueviolet;
@@ -74,15 +102,87 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     justify-content: center;
 }
 .container1{
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    margin-left: 50px;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+    
+ 
+}
+@media (max-width:450px) {
+    .container1{
+display:flex;
+flex-direction: column;
+gap: 30px;
+justify-content: center;
 
-   
-    gap: 15px;
+    }
+}
+
+.container2{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+ 
+}
+@media (max-width:450px) {
+    .container2{
+display:flex;
+flex-direction: column;
+gap: 30px;
+
+    }
+}
+.container3{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 50px;
+ 
+}
+@media (max-width:450px) {
+    .container3{
+display:flex;
+flex-direction: column;
+gap: 30px;
+
+    }
 }
 .then{
     font-size: 2rem;
+    margin: 0px;
+}
+@media (max-width:450px) {
+    .then{
+font-size: 1.2rem;
+
+    }
+}
+.a{
+    
+}
+@media (max-width:450px) {
+    .a{
+ width : 235px;
+ height: 100px;
+ 
+    }
+}
+.b{
+
+}
+@media (max-width:450px) {
+    .b{
+ width : 30px;
+ height: 30px;
+
+    }
+}
+.c{
+
+}
+@media (max-width:450px) {
+    .c{
+ width : 150px;
+ height: 150px;
+ margin-left: 50px;
+    }
 }

@@ -2,11 +2,16 @@
     font-size: 5rem;
     font-weight: 700;
     font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+    @media(max-width:450px) {
+        .one{
+     font-size: 2.5rem;
+     margin-left: 10px;
     
-    
+        }
     }
     .two{
-        display: inline-flex;
+        display: flex;
         align-items: center;
         margin-left: 100px;
         border-color: red;
@@ -15,6 +20,14 @@
         gap: 50px;
         padding-left:20px ;
         
+    }
+    @media(max-width:450px) {
+        .two{
+    gap: 0px;
+    display:block;
+    align-items: center;
+    justify-content:space-around;
+        }
     }
     .sev{
         background-color:wheat;
@@ -43,29 +56,73 @@
         background-color: red;
         margin-left: 0px;
     }
+    @media(max-width:450px) {
+        .two{
+    gap: 0px;
+    display:block;
+    align-items: center;
+    justify-content:space-around;
+        }
+    }
+    
     .one{
         font-size: 6rem;
         font-weight: 700;
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
     }
+    @media(max-width:450px) {
+        .one{
+     font-size: 3.5rem;
+     margin-left: -20px;
+    
+        }
+    }
     #why{
         border-radius: 20%;
+    }
+    @media (max-width:450px) {
+        #why{
+     width : 70px;
+     height: 50px;
+     margin-left: 40px;
+        }
     }
     .container{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 500px;
+
+      
         gap: 50px;
+    }
+    @media (max-width:450px) {
+        .container{
+     display: block;
+     margin-bottom: 0px;
+     height: 250px;
+    
+        }
     }
     .eigh{
         font-size: 2rem;
         color: orange;
+        margin-top: 50px;
     }
+    @media (max-width:450px) {
+        .eigh{
+     display: block;
+     width: 250px;
+     height: 150px;
+     font-size: 1.5rem;
+     margin-top: 20px;
+     margin-bottom: 0px;
+        }
+    }
+
     .tt{
 
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 50px;
         display: flex;
         justify-content: center;
@@ -74,6 +131,17 @@
         font-size: 3rem;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
+        @media (max-width:450px) {
+            .tt{
+         margin-top: 0px;
+         margin-bottom: 20px;
+         font-size: 2rem;
+         margin-left: 0px;
+         display: flex;
+         
+            }
+        }
+        
         .container1{
             display: flex;
             justify-content: center;
@@ -82,12 +150,28 @@
             margin-bottom: 50px;
            
         }
+        @media (max-width:450px) {
+            .container1{
+         
+         display: flex;
+         flex-direction: column;
+         
+            }
+        }
         .container2{
             display: flex;
             justify-content: center;
             gap: 60px;
             margin-bottom: 50px;
 
+        }
+        @media (max-width:450px) {
+            .container2{
+         
+         display: flex;
+         flex-direction: column;
+         
+            }
         }
         .container3{
             display: flex;
@@ -96,10 +180,28 @@
             margin-bottom: 50px;
 
         }
+        @media (max-width:450px) {
+            .container3{
+         
+         display: flex;
+         flex-direction: column;
+         
+            }
+        }
         .pink{
             width: 500px;
             display: flex;
             justify-content: center;
+        }
+        @media (max-width:450px) {
+            .pink{
+         
+         width: 270px;
+         height: 150;
+         display: flex;
+         justify-content: center;
+         
+            }
         }
         .r{
             font-size: 2rem;
@@ -110,6 +212,14 @@
             color: red;
             display: flex;
             justify-content: center;
+            align-items: center;
+        }
+        @media (max-width:450px) {
+            .mk{
+         margin-top: 0px;
+         margin-bottom: 20px;
+         font-size: 1.5rem;
+            }
         }
         .container4{
             display: grid;
@@ -122,6 +232,42 @@
            
             gap: 45px;
         }
+        @media (max-width:450px) {
+            .container4{
+         
+         display: flex;
+         flex-direction: column;
+         
+            }
+        }
         .then{
             font-size: 2rem;
         }
+        @media (max-width:450px) {
+            .then{
+        font-size: 1.5rem;
+            }
+        }
+        
+
+
+    .a{
+
+    }
+    @media (max-width:450px) {
+        .a{
+     height: 40px;
+     margin-right: 0px;
+        }
+    }
+    .no{
+
+    }
+    @media (max-width:450px) {
+        .no{
+     
+    height: 200px;
+     
+     
+        }
+    }

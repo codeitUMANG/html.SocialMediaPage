@@ -73,7 +73,6 @@
     background-color: orange;
     color: white;
     height: 50px;
-    width: 2100px;
     font-size: 20px;
 }
 
@@ -111,7 +110,7 @@
     align-items: center;
     justify-content: center;
 }
-@media (max-width:500px) {
+@media (max-width:450px) {
     .pii{
  width : 200px;
  height: 120px;

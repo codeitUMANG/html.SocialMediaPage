@@ -5,7 +5,7 @@
      }
     @media(max-width:450px) {
         .one{
-     font-size: 2.5rem;
+     font-size: 3.5rem;
      margin-left: 10px;
     
         }
@@ -28,6 +28,11 @@
     align-items: center;
     justify-content:space-around;
         }
+    }
+    .nin{
+        margin-top: 80px;
+        display: block;
+        flex-direction: column;
     }
     .sev{
         background-color:wheat;
@@ -73,7 +78,7 @@
     @media(max-width:450px) {
         .one{
      font-size: 3.5rem;
-     margin-left: -20px;
+     margin-left:-10px;
     
         }
     }
@@ -84,7 +89,7 @@
         #why{
      width : 70px;
      height: 50px;
-     margin-left: 40px;
+     margin-left: 50px;
         }
     }
     .container{
@@ -199,12 +204,20 @@
          height: 150;
          display: flex;
          justify-content: center;
+         margin-left: 15px;
          
             }
         }
         .r{
             font-size: 2rem;
            
+        }
+        @media (max-width:450px) {
+            .r{
+         
+         margin-left: 120px;
+         
+            }
         }
         .mk{
             font-size: 2rem;
@@ -245,6 +258,7 @@
         @media (max-width:450px) {
             .then{
         font-size: 1.5rem;
+        margin-left: 70px;
             }
         }
         
@@ -264,7 +278,7 @@
     }
     @media (max-width:450px) {
         .no{
-     
+    margin-left: 30px; 
     height: 200px;
      
      

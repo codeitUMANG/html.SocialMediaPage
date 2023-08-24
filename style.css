@@ -2,12 +2,13 @@
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 570px;
-    margin-top: 0px;
+	height: 560px;
+   
     display: flex;
+   
     
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 @keyframes gradient {
@@ -23,8 +24,14 @@
 }
 @media (max-width:450px) {
     .gradient-back{
- width : 300px;
+ width : 340px;
  height: 200px;
+ display: flex;
+ align-items: center;
+ margin-left: 0px;
+ justify-content: center;
+
+
     }
 }
 
@@ -38,13 +45,25 @@
     justify-content:space-evenly;
     align-items: baseline;
 }
+@media (max-width:450px) {
+    .pb-2{
+display: flex;
+justify-content: center;
+    }
+}
+
 .two{
     font-size: 1.5rem;
 }
 .pb-2{
-    font-size: 4rem;
+    font-size: 5rem;
     color: #191D88;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media (max-width:450px) {
+    .pb-2{
+font-size: 3rem;
+    }
 }
 .fs-2{
     font-size: rem;
@@ -92,17 +111,25 @@
 }
 
 .px-5{
-    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
 }
 .pi{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 @media (max-width:500px) {
     .pi{
- width : 250px;
- height: 150px;
+ width : 310px;
+ height: 180px;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 50px;
 }
 }
 .pii{
@@ -112,8 +139,25 @@
 }
 @media (max-width:450px) {
     .pii{
- width : 200px;
- height: 120px;
+       
+ width : 360px;
+ height: 170px;
     }
 }
+.gif{
+    display: flex;
+    justify-content: center;
+}
+.feature-col{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:450px) {
+    .feature-col{
+       display: flex;
+       justify-content: center;
+
+    }
+}
+
 
